@@ -31,6 +31,7 @@ export default function ContactUs() {
       <form onSubmit={handleSubmit}>
         <input value={user.name} readOnly />
         <input value={user.email} readOnly />
+        
 
         <textarea
           placeholder="Your feedback"
@@ -46,3 +47,4 @@ export default function ContactUs() {
     </div>
   );
 }
+
